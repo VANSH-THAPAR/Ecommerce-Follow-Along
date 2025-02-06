@@ -155,3 +155,13 @@ Established a connection between the server and MongoDB to confirm successful in
 3. **Multer Integration:**
    - Configured **Multer** for handling file uploads.
    - Allowed users to upload profile images and store them in a designated folder.
+
+
+## Milestone 5: Frontend Development - Sign-Up Page
+
+### Overview  
+In this milestone, I built the **Sign-Up Page** using **HTML** and **CSS** and added **form validation** to ensure users input valid data.  
+
+### Features  
+- **Sign-Up Page**: Created a responsive and user-friendly sign-up form.  
+- **Form Validation**: Added validation for required fields, email format, password matching, and minimum password length.  
