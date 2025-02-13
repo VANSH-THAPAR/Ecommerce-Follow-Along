@@ -188,4 +188,3 @@ In this milestone, I implemented user authentication with password encryption an
 - When the user logs in, the password provided is compared with the hashed password in the database for authentication.
 
 This ensures that sensitive user data, especially the password, is stored securely.
-
