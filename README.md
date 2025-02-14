@@ -189,6 +189,8 @@ In this milestone, I implemented user authentication with password encryption an
 
 This ensures that sensitive user data, especially the password, is stored securely.
 
+---
+
 # Milestone 7 - Login Endpoint
 
 ## Overview
@@ -204,44 +206,12 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Use bcrypt to hash the entered password.
 - Compare it with the stored hashed password for authentication.
 
-## Technologies Used
-- Node.js / Express (or relevant backend framework)
-- bcrypt for password hashing
-- Database (MongoDB, PostgreSQL, etc.)
+---
 
-## Installation & Setup
-1. Clone the repository:
-   ```sh
-   git clone <repository_url>
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Run the application:
-   ```sh
-   npm start
-   ```
+## Milestone 8: Product Card Component and Homepage Layout 🚀
 
-## API Endpoint
-### Login
-**POST** `/api/login`
-#### Request Body
-```json
-{
-  "email": "user@example.com",
-  "password": "yourpassword"
-}
-```
-#### Response
-```json
-{
-  "message": "Login successful",
-  "token": "your-jwt-token"
-}
-```
+### ✅ Frontend Product Card Component
+- Designed and implemented a reusable Product Card component.
+- Created a responsive homepage to display multiple Product Cards.
 
-## License
-This project is licensed under the MIT License.
-
-
+---
