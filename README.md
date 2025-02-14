@@ -188,3 +188,30 @@ In this milestone, I implemented user authentication with password encryption an
 - When the user logs in, the password provided is compared with the hashed password in the database for authentication.
 
 This ensures that sensitive user data, especially the password, is stored securely.
+
+---
+
+# Milestone 7 - Login Endpoint
+
+## Overview
+This milestone involves creating a login endpoint that allows users to authenticate using their email/username and password.
+
+## Steps
+
+### 1. Create Login Endpoint
+- Accept user credentials (email/username and password).
+- Retrieve the corresponding user from the database.
+
+### 2. Validate Password
+- Use bcrypt to hash the entered password.
+- Compare it with the stored hashed password for authentication.
+
+---
+
+## Milestone 8: Product Card Component and Homepage Layout 🚀
+
+### ✅ Frontend Product Card Component
+- Designed and implemented a reusable Product Card component.
+- Created a responsive homepage to display multiple Product Cards.
+
+---
