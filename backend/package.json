@@ -7,7 +7,7 @@
     "dev": "nodemon/server.js",
     "start": "node server.js"
   },
-  "author": "Vansh thapar",
+  "author": "vansh thapar",
   "license": "ISC",
   "description": "",
   "dependencies": {
