@@ -215,6 +215,8 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Created a responsive homepage to display multiple Product Cards.
 
 ---
+
+milestone-9
 # Milestone 9: Product Form Creation
 
 ## Learning Goals
@@ -231,6 +233,7 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Update README with Milestone 9 summary.
 - Share repository link in the submission section.
 
+milestone-10
 ---
 # Milestone 10: Mongoose Schema & Endpoint Creation
 ---
@@ -284,4 +287,4 @@ By completing this milestone, you will learn:
 ## Steps to Follow 📝  
 1️⃣ **Backend**: Create an API endpoint that filters and sends products based on the user's email.  
 2️⃣ **Frontend**: Write a function to fetch the filtered product data.  
-3️⃣ **UI Update**: Pass the filtered data to the Product Card component and display it dynamically.  
+3️⃣ **UI Update**: Pass the filtered data to the Product Card component and display it dynamically. 
