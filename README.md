@@ -247,12 +247,29 @@ milestone-10
 3. Build a POST endpoint to receive product data.
 4. Validate and save product details to MongoDB.
 
-## Why Validation?
-- Ensures that only valid data is saved in the database, maintaining data integrity and preventing errors.
+---
+# Milestone 11 - Display Products Dynamically
+---
 
+## Overview  
+In this milestone, we are making our **home page dynamic** by fetching and displaying product data from MongoDB. We will:  
+- Create an **API endpoint** in Express to fetch all products.  
+- Fetch the data in the **frontend**.  
+- Display the products dynamically using the **Product Card** component.  
+
+## Learning Objectives 🎯  
+By completing this milestone, you will learn:  
+✅ How to write an endpoint to fetch data from MongoDB.  
+✅ How to receive and use the data in the frontend.  
+✅ How to dynamically display the data using React components.  
+
+## Steps to Follow 📝  
+1️⃣ **Backend**: Create an API endpoint to send all product data.  
+2️⃣ **Frontend**: Write a function to fetch the product data.  
+3️⃣ **UI Update**: Pass the data to the Product Card component and display it dynamically.  
+=======
 ## Submission
 - Push code to GitHub.
 - Ensure repository is public.
 - Update README with Milestone 10 summary.
 - Share repository link in the submission section.
-
