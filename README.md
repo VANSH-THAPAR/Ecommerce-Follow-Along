@@ -267,9 +267,24 @@ By completing this milestone, you will learn:
 1️⃣ **Backend**: Create an API endpoint to send all product data.  
 2️⃣ **Frontend**: Write a function to fetch the product data.  
 3️⃣ **UI Update**: Pass the data to the Product Card component and display it dynamically.  
-=======
-## Submission
-- Push code to GitHub.
-- Ensure repository is public.
-- Update README with Milestone 10 summary.
-- Share repository link in the submission section.
+
+---
+# Milestone 12 - My Products Page
+---
+
+## Overview  
+In this milestone, we will create the **My Products** page that displays all the products added by the logged-in user. We will:  
+- Create an **API endpoint** in Express to fetch products based on the user's email.  
+- Fetch the data in the **frontend**.  
+- Display the filtered products dynamically using the **Product Card** component.  
+
+## Learning Objectives 🎯  
+By completing this milestone, you will learn:  
+✅ How to write an endpoint to fetch data filtered by the user's email.  
+✅ How to receive and use the data in the frontend.  
+✅ How to dynamically display the filtered data using React components.  
+
+## Steps to Follow 📝  
+1️⃣ **Backend**: Create an API endpoint that filters and sends products based on the user's email.  
+2️⃣ **Frontend**: Write a function to fetch the filtered product data.  
+3️⃣ **UI Update**: Pass the filtered data to the Product Card component and display it dynamically. 
