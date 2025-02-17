@@ -215,3 +215,23 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Created a responsive homepage to display multiple Product Cards.
 
 ---
+# Milestone 9: Product Form Creation
+
+## Learning Goals
+- Create a form to take product details.
+- Allow multiple image uploads.
+
+## Steps
+1. Build a product form with necessary fields.
+2. Add validation and improve UI/UX.
+
+## Submission
+- Push code to GitHub.
+- Ensure repository is public.
+- Update README with Milestone 9 summary.
+- Share repository link in the submission section.
+
+## Next Steps
+Enhance product cards with filtering and sorting.
+
+**Good luck, Kalvians!** ✨
