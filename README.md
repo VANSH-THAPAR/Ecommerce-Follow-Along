@@ -233,5 +233,26 @@ milestone-9
 - Update README with Milestone 9 summary.
 - Share repository link in the submission section.
 
-## Next Steps
-Enhance product cards with filtering and sorting.
+milestone-10
+---
+# Milestone 10: Mongoose Schema & Endpoint Creation
+---
+## Learning Goals
+- Write a Mongoose schema for products.
+- Create an endpoint to validate and store product details in MongoDB.
+
+## Steps
+1. Define the product schema with fields like name, description, price, and image URL.
+2. Ensure proper validation for each field (e.g., required fields, correct data types).
+3. Build a POST endpoint to receive product data.
+4. Validate and save product details to MongoDB.
+
+## Why Validation?
+- Ensures that only valid data is saved in the database, maintaining data integrity and preventing errors.
+
+## Submission
+- Push code to GitHub.
+- Ensure repository is public.
+- Update README with Milestone 10 summary.
+- Share repository link in the submission section.
+
