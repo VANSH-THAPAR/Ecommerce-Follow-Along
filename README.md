@@ -215,6 +215,8 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Created a responsive homepage to display multiple Product Cards.
 
 ---
+
+milestone-9
 # Milestone 9: Product Form Creation
 
 ## Learning Goals
@@ -233,5 +235,3 @@ This milestone involves creating a login endpoint that allows users to authentic
 
 ## Next Steps
 Enhance product cards with filtering and sorting.
-
-**Good luck, Kalvians!** ✨
