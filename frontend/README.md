@@ -285,3 +285,19 @@ By completing this milestone, you will learn:
 1️⃣ **Backend**: Create an API endpoint that filters and sends products based on the user's email.  
 2️⃣ **Frontend**: Write a function to fetch the filtered product data.  
 3️⃣ **UI Update**: Pass the filtered data to the Product Card component and display it dynamically.  
+
+---
+# Milestone 13 - Edit Product Feature
+---
+
+## Overview
+This milestone adds the functionality to edit uploaded products. The update includes:
+- An **Edit** button for each product.
+- An endpoint to update existing product details in MongoDB.
+- Auto-filling the form with previous data for editing.
+
+## Implementation Steps
+1. Created an **API endpoint** to update product details in MongoDB.
+2. Added an **Edit** button to the product card.
+3. Implemented **auto-fill** functionality in the edit form.
+4. Allowed users to modify product details and save changes.
