@@ -215,6 +215,8 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Created a responsive homepage to display multiple Product Cards.
 
 ---
+
+milestone-9
 # Milestone 9: Product Form Creation
 
 ## Learning Goals
@@ -231,6 +233,7 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Update README with Milestone 9 summary.
 - Share repository link in the submission section.
 
+milestone-10
 ---
 # Milestone 10: Mongoose Schema & Endpoint Creation
 ---
@@ -301,3 +304,4 @@ This milestone adds the functionality to edit uploaded products. The update incl
 2. Added an **Edit** button to the product card.
 3. Implemented **auto-fill** functionality in the edit form.
 4. Allowed users to modify product details and save changes.
+=======
