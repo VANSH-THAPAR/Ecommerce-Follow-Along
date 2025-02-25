@@ -301,3 +301,15 @@ This milestone adds the functionality to edit uploaded products. The update incl
 2. Added an **Edit** button to the product card.
 3. Implemented **auto-fill** functionality in the edit form.
 4. Allowed users to modify product details and save changes.
+
+---
+# **Product Deletion API - Milestone 14** 🚀  
+---
+
+## **Overview**  
+This project implements a DELETE endpoint to remove a product from MongoDB using its ID. Additionally, a **Delete button** is added to the frontend, allowing users to delete a product by sending its ID to the backend.  
+
+## **Features**  
+✅ API endpoint to delete a product by ID  
+✅ Frontend button to trigger the delete request  
+✅ MongoDB integration for data persistence  
