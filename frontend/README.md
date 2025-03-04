@@ -215,6 +215,8 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Created a responsive homepage to display multiple Product Cards.
 
 ---
+
+milestone-9
 # Milestone 9: Product Form Creation
 
 ## Learning Goals
@@ -231,6 +233,7 @@ This milestone involves creating a login endpoint that allows users to authentic
 - Update README with Milestone 9 summary.
 - Share repository link in the submission section.
 
+milestone-10
 ---
 # Milestone 10: Mongoose Schema & Endpoint Creation
 ---
@@ -333,10 +336,17 @@ The Navbar is **responsive** and is included on all pages to enable smooth navig
 - Vite  
 - React Router  
 
-## How to Run  
-1. Clone the repository  
-2. Install dependencies: `npm install`  
-3. Start the app: `npm run dev`  
+---
+# Milestone 16 - Product Info Page  
+---
 
-## Submission  
-This milestone demonstrates the ability to create reusable components and implement navigation across multiple pages.  
+## Overview  
+In this milestone, I created a **Product Info Page** that displays detailed product data. The page includes:  
+- Product details (name, price, description, etc.)  
+- Quantity selection  
+- "Add to Cart" button  
+
+## Technologies Used  
+- React  
+- Vite  
+- React Router  
