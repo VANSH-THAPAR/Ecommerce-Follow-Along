@@ -316,3 +316,30 @@ This project implements a DELETE endpoint to remove a product from MongoDB using
 ✅ API endpoint to delete a product by ID  
 ✅ Frontend button to trigger the delete request  
 ✅ MongoDB integration for data persistence  
+
+---
+# Milestone 15 - Navbar Component  
+---
+
+## Overview  
+In this milestone, I created a reusable **Navbar** component for the application. The Navbar includes links to the following pages:  
+
+- Home  
+- My Products  
+- Add Product  
+- Cart  
+
+The Navbar is **responsive** and is included on all pages to enable smooth navigation.  
+
+## Technologies Used  
+- React  
+- Vite  
+- React Router  
+
+## How to Run  
+1. Clone the repository  
+2. Install dependencies: `npm install`  
+3. Start the app: `npm run dev`  
+
+## Submission  
+This milestone demonstrates the ability to create reusable components and implement navigation across multiple pages.  
