@@ -368,3 +368,18 @@ In this milestone, we implemented an API endpoint to add products to the cart an
 2. Modified the **User Schema** to store cart items.  
 3. Created an **API route** to receive product details and store them in the database.  
 
+---
+# Milestone 18 - Fetch Cart Products  
+---
+
+## Overview  
+In this milestone, we created a backend endpoint to retrieve all products inside a user's cart for display on the cart page.  
+
+## Features Implemented  
+- Developed an **API endpoint** to fetch cart products using the user's email.  
+- Retrieved and returned **cart items** from the database.  
+
+## Steps Taken  
+1. Created an **endpoint** to receive requests from the cart page.  
+2. Queried the database to **fetch all cart items** associated with the user.  
+3. Returned the **cart data** in the response.  
