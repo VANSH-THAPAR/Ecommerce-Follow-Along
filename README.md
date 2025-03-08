@@ -414,3 +414,18 @@ In this milestone, I implemented the profile page functionality by:
 - Show profile photo, name, and email in one section.  
 - Display addresses in another section with an "Add Address" button.  
 - If no address is available, show "No address found" message.
+
+---
+# Milestone 21 - Address Form Functionality  
+---
+
+## Overview  
+In this milestone, I implemented the address form functionality by:  
+- Creating a frontend form for address input.  
+- Capturing user details like country, city, address1, address2, zip code, and address type.  
+- Navigating to the form page when the "Add Address" button is clicked in the profile page.  
+
+## Features Implemented  
+- Created an address form page.  
+- Stored input address using state management.  
+- Integrated navigation from the profile page to the address form.
