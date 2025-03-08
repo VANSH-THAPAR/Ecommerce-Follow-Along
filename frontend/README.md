@@ -429,3 +429,18 @@ In this milestone, I implemented the address form functionality by:
 - Created an address form page.  
 - Stored input address using state management.  
 - Integrated navigation from the profile page to the address form.
+
+---
+# Milestone 22 - Address Storage Functionality  
+---
+
+## Overview  
+In this milestone, I implemented the backend functionality to store user addresses by:  
+- Creating an endpoint to receive address data from the frontend form.  
+- Storing the received address inside the user profile in the database.  
+- Managing the address array within the user collection.  
+
+## Features Implemented  
+- Developed a backend endpoint to handle address storage.  
+- Integrated the endpoint with the address form.  
+- Ensured addresses are added to the user collection in the database.
