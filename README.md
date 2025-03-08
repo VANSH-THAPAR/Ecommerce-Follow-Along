@@ -383,3 +383,18 @@ In this milestone, we created a backend endpoint to retrieve all products inside
 1. Created an **endpoint** to receive requests from the cart page.  
 2. Queried the database to **fetch all cart items** associated with the user.  
 3. Returned the **cart data** in the response.  
+
+---
+# Milestone 19 - Cart Functionality  
+---
+
+## Overview  
+In this milestone, I implemented the cart functionality by:  
+- Creating a frontend cart page to display products.  
+- Adding + and - buttons to increase/decrease product quantity.  
+- Developing backend endpoints to update the quantity dynamically.  
+
+## Features Implemented  
+- Display products inside the cart.  
+- Update product quantity using buttons.  
+- Backend support for modifying cart item quantities.
