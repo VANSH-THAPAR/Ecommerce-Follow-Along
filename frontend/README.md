@@ -444,3 +444,20 @@ In this milestone, I implemented the backend functionality to store user address
 - Developed a backend endpoint to handle address storage.  
 - Integrated the endpoint with the address form.  
 - Ensured addresses are added to the user collection in the database.
+
+---
+# Milestone 23 - Place Order Functionality  
+---
+
+## Overview  
+In this milestone, I implemented the place order functionality by:  
+- Adding a "Place Order" button inside the cart page.  
+- Creating a select address page to display all available addresses and allow selection of a delivery address.  
+- Writing a Mongoose schema for storing order details.  
+- Developing a backend endpoint to retrieve all user addresses.  
+
+## Features Implemented  
+- Added a "Place Order" button that navigates to the select address page.  
+- Displayed available addresses with a selection option.  
+- Created a backend schema for order storage.  
+- Built an endpoint to send user addresses to the frontend.
