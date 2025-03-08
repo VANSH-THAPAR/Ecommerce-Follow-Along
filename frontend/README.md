@@ -461,3 +461,21 @@ In this milestone, I implemented the place order functionality by:
 - Displayed available addresses with a selection option.  
 - Created a backend schema for order storage.  
 - Built an endpoint to send user addresses to the frontend.
+
+---
+# Milestone 24 - Order Confirmation Page  
+---
+
+## Overview  
+In this milestone, I implemented the order confirmation functionality by:  
+- Creating an order confirmation page in the frontend.  
+- Displaying the products being ordered.  
+- Showing the selected delivery address.  
+- Displaying the total cart value.  
+- Adding a "Place Order" button at the bottom.  
+
+## Features Implemented  
+- Order confirmation page with product details.  
+- Display of selected delivery address.  
+- Calculation and display of total cart price.  
+- Final "Place Order" button for order submission.
