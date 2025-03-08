@@ -398,3 +398,19 @@ In this milestone, I implemented the cart functionality by:
 - Display products inside the cart.  
 - Update product quantity using buttons.  
 - Backend support for modifying cart item quantities.
+
+---
+# Milestone 20 - Profile Page Functionality  
+---
+
+## Overview  
+In this milestone, I implemented the profile page functionality by:  
+- Creating a backend endpoint to send user data via email.  
+- Developing a frontend profile page to display user details.  
+- Displaying profile photo, name, email, and addresses.  
+
+## Features Implemented  
+- Fetch and display user profile data.  
+- Show profile photo, name, and email in one section.  
+- Display addresses in another section with an "Add Address" button.  
+- If no address is available, show "No address found" message.
