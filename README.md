@@ -609,3 +609,70 @@ Code is pushed to the GitHub repository created in earlier milestones.
 - Fully functional **Cancel Order** feature.
 - Corrected and optimized API logic.
 - Updated README to reflect milestone progress.
+
+# Milestone 29: PayPal Integration Preparation
+
+## 📄 Overview
+In Milestone 29, we prepared the application for integrating an online payment gateway using the **PayPal API**. We added options for **Cash on Delivery (COD)** and **Online Payment** on the order confirmation page.
+
+## 🛠️ Key Accomplishments
+
+### 💳 Payment Options
+- Added **radio buttons** to select between COD and Online Payment.
+- Displayed **PayPal Buttons** dynamically when Online Payment is selected.
+
+### 🔐 PayPal Sandbox Setup
+- Created a **PayPal Developer Account**.
+- Generated and saved the **Sandbox Account User ID**.
+- Copied and stored the **Client ID** from the PayPal Sandbox account.
+
+### 📚 Payment Flow Implementation
+- Prepared frontend to dynamically render PayPal buttons.
+- Configured initial structure for integrating PayPal API in the next milestone.
+
+## 💡 Learning Outcomes
+- Learned how to set up a PayPal sandbox account.
+- Understood how to add payment options and dynamically display PayPal buttons.
+- Strengthened knowledge on integrating online payment gateways.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Updated order confirmation page with payment options.
+- Initial setup for PayPal integration.
+- Updated README to reflect milestone progress.
+
+
+# Milestone 30: PayPal API Integration
+
+## 📄 Overview
+In Milestone 30, we successfully implemented the PayPal API to enable online payments in our application. Building upon the previous milestone, we used the client key from our PayPal sandbox account to integrate the payment system.
+
+## 🛠️ Key Accomplishments
+
+### 💳 PayPal API Integration
+- Installed the `react-paypal-js` NPM package to facilitate integration.
+- Used the **PayPalScriptProvider** component to display online payment options.
+- Implemented dynamic rendering of PayPal buttons for payment processing.
+
+### 🔗 Payment Flow Implementation
+- Utilized the client key generated in the PayPal sandbox account.
+- Configured payment options to include credit, debit, and PayPal payments.
+
+### 📚 Enhanced Order Flow
+- Successfully integrated PayPal payments into the order confirmation page.
+- Ensured seamless transition between COD and PayPal payment methods.
+
+## 💡 Learning Outcomes
+- Gained hands-on experience with PayPal API integration.
+- Learned how to use `react-paypal-js` to manage PayPal scripts and buttons.
+- Strengthened understanding of secure payment handling and dynamic UI integration.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Fully functional PayPal payment integration.
+- Corrected and optimized API logic.
+- Updated README to reflect milestone progress.
