@@ -512,3 +512,35 @@ Code is pushed to the GitHub repository created in earlier milestones.
 - Updated backend endpoint for order placement.
 - Corrected and optimized API logic.
 - Updated README to reflect milestone progress.
+
+# Milestone 26: Get User Orders Endpoint
+
+## 📄 Overview
+In Milestone 26, we implemented a backend endpoint to retrieve all orders of a specific user. This endpoint receives the user's email, retrieves the user's `_id` based on the provided email, and returns all orders associated with that user.
+
+## 🛠️ Key Accomplishments
+
+### 🔗 API Endpoint
+- Created a **GET** endpoint at `/api/get-orders`.
+- Received the user's email as a parameter.
+- Retrieved the user's `_id` based on the provided email.
+
+### 📚 Order Retrieval
+- Fetched all orders associated with the user's `_id`.
+- Sent the retrieved orders in the API response.
+
+### 🔒 Data Integrity
+- Ensured data consistency and validation while retrieving orders.
+
+## 💡 Learning Outcomes
+- Developed backend API to retrieve user-specific orders.
+- Strengthened understanding of MongoDB queries and schema management.
+- Enhanced skills in API endpoint implementation and validation.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Updated backend endpoint for retrieving user orders.
+- Corrected and optimized API logic.
+- Updated README to reflect milestone progress.
