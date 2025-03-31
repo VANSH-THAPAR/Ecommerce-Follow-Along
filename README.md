@@ -479,3 +479,36 @@ In this milestone, I implemented the order confirmation functionality by:
 - Display of selected delivery address.  
 - Calculation and display of total cart price.  
 - Final "Place Order" button for order submission.
+
+# Milestone 25: Placing Order Endpoint
+
+## 📄 Overview
+In Milestone 25, we implemented the backend endpoint to place orders. This endpoint receives order details, retrieves the user's _id based on the provided email, and stores each order with the same address in the database.
+
+## 🛠️ Key Accomplishments
+
+### 🔗 API Endpoint
+- Created a **POST** endpoint at `/api/place-order`.
+- Received product, user, and address details.
+- Fetched the user's `_id` based on the provided email.
+
+### 🚳 Order Storage
+- Stored order details using the **Order** schema.
+- Created a new order for each product with the same address.
+
+### 📚 Database Schema
+- Updated the **Order** schema to include `product`, `user`, `address`, and `status` fields.
+- Ensured data integrity and consistency with proper validation.
+
+## 💡 Learning Outcomes
+- Developed backend API for placing orders.
+- Retrieved user details using email and stored order data.
+- Strengthened understanding of MongoDB schema design and order management.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Updated backend endpoint for order placement.
+- Corrected and optimized API logic.
+- Updated README to reflect milestone progress.
