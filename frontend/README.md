@@ -610,3 +610,35 @@ Code is pushed to the GitHub repository created in earlier milestones.
 - Corrected and optimized API logic.
 - Updated README to reflect milestone progress.
 
+# Milestone 29: PayPal Integration Preparation
+
+## 📄 Overview
+In Milestone 29, we prepared the application for integrating an online payment gateway using the **PayPal API**. We added options for **Cash on Delivery (COD)** and **Online Payment** on the order confirmation page.
+
+## 🛠️ Key Accomplishments
+
+### 💳 Payment Options
+- Added **radio buttons** to select between COD and Online Payment.
+- Displayed **PayPal Buttons** dynamically when Online Payment is selected.
+
+### 🔐 PayPal Sandbox Setup
+- Created a **PayPal Developer Account**.
+- Generated and saved the **Sandbox Account User ID**.
+- Copied and stored the **Client ID** from the PayPal Sandbox account.
+
+### 📚 Payment Flow Implementation
+- Prepared frontend to dynamically render PayPal buttons.
+- Configured initial structure for integrating PayPal API in the next milestone.
+
+## 💡 Learning Outcomes
+- Learned how to set up a PayPal sandbox account.
+- Understood how to add payment options and dynamically display PayPal buttons.
+- Strengthened knowledge on integrating online payment gateways.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Updated order confirmation page with payment options.
+- Initial setup for PayPal integration.
+- Updated README to reflect milestone progress.
