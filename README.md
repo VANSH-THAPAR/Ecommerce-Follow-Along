@@ -544,3 +544,35 @@ Code is pushed to the GitHub repository created in earlier milestones.
 - Updated backend endpoint for retrieving user orders.
 - Corrected and optimized API logic.
 - Updated README to reflect milestone progress.
+
+# Milestone 27: My Orders Page Implementation
+
+## 📄 Overview
+In Milestone 27, we implemented a frontend page to display all the user's orders. The page sends a GET request to the `/api/get-orders` endpoint created in the previous milestone and retrieves the orders associated with the user's email.
+
+## 🛠️ Key Accomplishments
+
+### 🎨 Frontend Page
+- Created a **My Orders** page to display all user orders.
+- Sent a **GET** request to the `/api/get-orders` endpoint with the user's email.
+- Fetched and displayed all orders in a user-friendly format.
+
+### 🧭 Navigation Enhancement
+- Added **My Orders** link in the navbar for easier navigation.
+
+### 📚 Data Display
+- Ensured that the order details are displayed properly with necessary information such as product name, quantity, price, and status.
+
+## 💡 Learning Outcomes
+- Developed a frontend page to retrieve and display user orders.
+- Strengthened understanding of API consumption and dynamic rendering in React.
+- Enhanced navigation by adding relevant links to the navbar.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Fully functional **My Orders** page.
+- Corrected and optimized frontend logic.
+- Updated README to reflect milestone progress.
+
