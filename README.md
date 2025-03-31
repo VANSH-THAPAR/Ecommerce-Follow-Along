@@ -576,3 +576,37 @@ Code is pushed to the GitHub repository created in earlier milestones.
 - Corrected and optimized frontend logic.
 - Updated README to reflect milestone progress.
 
+# Milestone 28: Cancel Order Feature
+
+## 📄 Overview
+In Milestone 28, we implemented a cancel button in the **My Orders** page and created a backend endpoint to cancel an order. Users can now cancel placed orders, and the order status will be updated accordingly.
+
+## 🛠️ Key Accomplishments
+
+### 🎨 Frontend Enhancements
+- Added a **Cancel Order** button for each order on the **My Orders** page.
+- Ensured that the button is not displayed if the order is already canceled.
+
+### 🔗 API Endpoint
+- Created a **POST** endpoint at `/api/cancel-order`.
+- Received the `orderId` as a parameter.
+- Retrieved the order using `orderId` and updated the status to **canceled**.
+- Saved the updated order in the database.
+
+### 🧾 Order Status Management
+- Ensured that canceled orders cannot be canceled again.
+- Properly handled order status updates and data consistency.
+
+## 💡 Learning Outcomes
+- Implemented order cancellation functionality in the frontend and backend.
+- Strengthened understanding of MongoDB queries and update operations.
+- Enhanced API development and frontend integration.
+
+## ✅ Submission Details
+Code is pushed to the GitHub repository created in earlier milestones.
+
+### The repository includes:
+- Fully functional **Cancel Order** feature.
+- Corrected and optimized API logic.
+- Updated README to reflect milestone progress.
+
