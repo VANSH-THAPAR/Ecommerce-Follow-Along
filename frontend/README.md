@@ -676,3 +676,42 @@ Code is pushed to the GitHub repository created in earlier milestones.
 - Fully functional PayPal payment integration.
 - Corrected and optimized API logic.
 - Updated README to reflect milestone progress.
+
+# 🧠 Milestone 31 - Global State Management using Redux
+
+Welcome, Kalvians! 🎉  
+This milestone focuses on implementing **global state management** using **Redux** in a React application.
+
+---
+
+## 🚀 Learning Goals
+
+By the end of this milestone, I learned:
+
+- How to use **Redux** for managing global state.
+- How to configure a **Redux store**.
+- How to create actions and reducers.
+- How to integrate Redux with a React application using the `Provider` component from `react-redux`.
+
+---
+
+## 💠 Steps Followed
+
+1. ✅ Installed `react-redux` via npm:
+   ```bash
+   npm install react-redux
+   ```
+
+2. ✅ Created a new folder named `store/` with the following files:
+   - `store.js`: Configured Redux store and reducer.
+   - `userActions.js`: Defined the `setEmail` action.
+
+3. ✅ Implemented a global email state:
+   - Created a `userReducer` function to manage email.
+   - Configured the store using `configureStore()` from Redux Toolkit (or `createStore()` from Redux).
+
+4. ✅ Wrapped the `<App />` component inside a Redux `<Provider>` in `index.js`, passing the store as a prop.
+
+5. ✅ Prepared for the next lesson to use the email across all files via Redux.
+
+---
