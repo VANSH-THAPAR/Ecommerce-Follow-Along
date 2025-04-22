@@ -715,3 +715,28 @@ By the end of this milestone, I learned:
 5. ✅ Prepared for the next lesson to use the email across all files via Redux.
 
 ---
+
+## 🚀 Milestone 32 - Global State Management with Redux
+
+In this milestone, we focused on improving state management across our Ecommerce Follow-Along project by using **Redux** to store and access user data globally across multiple pages.
+
+### 🎯 What Was Achieved:
+
+- Implemented **Redux** to handle the global state.
+- Stored the **user's email** in the Redux store upon login using the `dispatch` method.
+- Accessed the stored **email** in all other pages using the `useSelector` hook.
+- Ensured consistent and centralized user data access across components, improving app reliability and reducing prop-drilling.
+  
+### 🛠 Tech Used:
+
+- React.js
+- Redux Toolkit
+- React-Redux
+
+### 📂 Files Modified:
+
+- `Login.jsx`: Used `dispatch` to save email in global state.
+- `store.js` / `userSlice.js`: Created Redux slice for managing user state.
+- Other pages (e.g. Dashboard, Profile, etc.): Used `useSelector` to access the email from the store.
+
+---
