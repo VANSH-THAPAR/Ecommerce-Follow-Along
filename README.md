@@ -739,4 +739,45 @@ In this milestone, we focused on improving state management across our Ecommerce
 - `store.js` / `userSlice.js`: Created Redux slice for managing user state.
 - Other pages (e.g. Dashboard, Profile, etc.): Used `useSelector` to access the email from the store.
 
----
+## 🔐 Milestone 33 - JWT Token Creation & Cookie Storage
+
+In this milestone, we implemented **JWT authentication** by generating a token upon login and securely storing it inside a browser cookie. This helps in maintaining persistent user sessions.
+
+### 🎯 What Was Achieved:
+
+- Installed the `jsonwebtoken` package using NPM.
+- Created a **JWT token** using the `sign()` method with user's **email** and **ID**.
+- Set an **expiry time** for the token using the `maxAge` option.
+- Sent the token to the frontend by attaching it as a **cookie** in the server response.
+
+### 🛠 Tech Used:
+
+- Node.js
+- Express.js
+- jsonwebtoken
+- cookie-parser
+
+### 📂 Key Implementation Files:
+
+- `authController.js` or similar:
+  - Used `jwt.sign()` to generate token:
+    ```js
+    const token = jwt.sign({ id: user._id, email: user.email }, 'yourSecretKey', {
+      expiresIn: '1d'
+    });
+    ```
+  - Set cookie in response:
+    ```js
+    res.cookie('jwt', token, {
+      httpOnly: true,
+      maxAge: 24 * 60 * 60 * 1000 // 1 day
+    });
+    ```
+
+- `server.js` or `app.js`:
+  - Imported and used `cookie-parser` middleware:
+    ```js
+    const cookieParser = require('cookie-parser');
+    app.use(cookieParser());
+    ```
+
