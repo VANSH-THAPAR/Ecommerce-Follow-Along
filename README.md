@@ -715,3 +715,165 @@ By the end of this milestone, I learned:
 5. ✅ Prepared for the next lesson to use the email across all files via Redux.
 
 ---
+## 🚀 Milestone 32 - Global State Management with Redux
+
+In this milestone, we focused on improving state management across our Ecommerce Follow-Along project by using **Redux** to store and access user data globally across multiple pages.
+
+### 🎯 What Was Achieved:
+
+- Implemented **Redux** to handle the global state.
+- Stored the **user's email** in the Redux store upon login using the `dispatch` method.
+- Accessed the stored **email** in all other pages using the `useSelector` hook.
+- Ensured consistent and centralized user data access across components, improving app reliability and reducing prop-drilling.
+  
+### 🛠 Tech Used:
+
+- React.js
+- Redux Toolkit
+- React-Redux
+
+### 📂 Files Modified:
+
+- `Login.jsx`: Used `dispatch` to save email in global state.
+- `store.js` / `userSlice.js`: Created Redux slice for managing user state.
+- Other pages (e.g. Dashboard, Profile, etc.): Used `useSelector` to access the email from the store.
+
+---
+
+### ✅ How to Run:
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/Ecommerce-Follow-Along.git
+   cd Ecommerce-Follow-Along
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm start
+💡 Summary:
+This milestone helped in understanding the power of Redux for managing global application state efficiently. It was a crucial step in making the app scalable and maintainable as more user-specific features are added.
+
+kotlin
+Copy
+Edit
+
+Let me know your GitHub repo name and I can customize this further for you!
+
+
+
+
+
+
+You said:
+Logo
+Livebooks
+Backend Web Development [V2]
+Saving password and setting username in cookie[v2]
+Follow-along project milestone #33
+Hey Kalvians!
+
+Welcome to Milestone 33! 🌟
+
+Today, we will learn how to create an JWT token and store them inside an cookie.
+
+Learning Goals 🎯
+By the end of this milestone, you will:
+
+Learn how to create an JWT token.
+How to store the tokens inside the cookie.
+Steps for Milestone 33📝
+Download jsonwebtoken package using NPM
+Use sign method to create an JWT token with mail and ID
+Give maxAge to set expire time
+Add the cookie inside the response that helps you to store the cookie inside browser.
+This lesson will help you in understanding how to create an JWT token and store it inside an token.
+
+Submission Guidelines 📥
+
+Push your code to your GitHub repository.
+Ensure your repository is publicly accessible.
+Update the README file to summarize your progress for Milestone 33.
+Share the repository link in the assignment submission section.
+Good luck, Kalvians! ✨
+
+Take this assignment to show your understanding of the topics you have learned.
+
+Max. Duration:
+1 hr
+How did you like this assignment?
+
+Not Good
+
+Okayish
+
+Good
+
+Very Good
+
+Previous
+
+Follow-along project milestone #32
+Next
+
+Assignment | ASAP Project - working with cookie
+
+send me readme file
+
+
+ChatGPT said:
+Here's a sample README.md section for Milestone 33 that you can add to your GitHub repo:
+
+markdown
+Copy
+Edit
+## 🔐 Milestone 33 - JWT Token Creation & Cookie Storage
+
+In this milestone, we implemented **JWT authentication** by generating a token upon login and securely storing it inside a browser cookie. This helps in maintaining persistent user sessions.
+
+### 🎯 What Was Achieved:
+
+- Installed the `jsonwebtoken` package using NPM.
+- Created a **JWT token** using the `sign()` method with user's **email** and **ID**.
+- Set an **expiry time** for the token using the `maxAge` option.
+- Sent the token to the frontend by attaching it as a **cookie** in the server response.
+
+### 🛠 Tech Used:
+
+- Node.js
+- Express.js
+- jsonwebtoken
+- cookie-parser
+
+### 📂 Key Implementation Files:
+
+- `authController.js` or similar:
+  - Used `jwt.sign()` to generate token:
+    ```js
+    const token = jwt.sign({ id: user._id, email: user.email }, 'yourSecretKey', {
+      expiresIn: '1d'
+    });
+    ```
+  - Set cookie in response:
+    ```js
+    res.cookie('jwt', token, {
+      httpOnly: true,
+      maxAge: 24 * 60 * 60 * 1000 // 1 day
+    });
+    ```
+
+- `server.js` or `app.js`:
+  - Imported and used `cookie-parser` middleware:
+    ```js
+    const cookieParser = require('cookie-parser');
+    app.use(cookieParser());
+    ```
+
+---
